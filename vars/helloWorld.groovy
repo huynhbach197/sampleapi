@@ -1,3 +1,3 @@
-def call() {
-    sh "echo Hello World3435345345345."
+def call(Sting name, Sting day) {
+    sh "echo ${name}: today is ${day}."
 }
