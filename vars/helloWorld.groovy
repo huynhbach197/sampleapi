@@ -1,3 +1,3 @@
-def call(Sting name, Sting day) {
+def call(String name, String day) {
     sh "echo ${name}: today is ${day}."
 }
